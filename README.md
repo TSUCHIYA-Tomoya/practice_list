@@ -11,3 +11,9 @@ RGB値とhtmlカラーコードとで色の値を変換するプログラム。
 - あるRGB値を入力するとhtmlカラーコードを返す。例：255,255,255=>#ffffff
 - あるhtmlカラーコードを入力するとRGB値を返す。例：#ffffff=>255,255,255
 - ついでに入力した色を表す原色大辞典(https://www.colordic.org/)のWebページを開く(但し、Linux限定)
+
+## その他
+現状、ポートフォリオと呼べるようなものが無いので、色々羅列しておきます。
+
+- アルバイト先で作成しているWebサイト：[名大の授業](https://ocw.nagoya-u.jp/ja/)
+- 最近始めたAtCoder：[sardine_bird](https://atcoder.jp/users/sardine_bird)
