@@ -11,15 +11,49 @@
 
 ## 01_fizz_buzz.rb
 かの有名なfizz_buzz
+### demo
+```
+$ ruby 01_fizz_buzz.rb
+4 			# <= input
+4 			# <= output
+
+$ ruby 01_fizz_buzz.rb
+3
+Fizz
+
+$ ruby 01_fizz_buzz.rb
+5
+Buzz
+
+$ ruby 01_fizz_buzz.rb
+15
+Fizz Buzz
+```
 
 ## 02_color_converter.rb
 RGB値とhtmlカラーコードとで色の値を変換するプログラム。
-
 『プロを目指す人のためのRuby入門』を読む課程で作成したもの。
 ### 機能
 - あるRGB値を入力するとhtmlカラーコードを返す。例：255,255,255=>#ffffff
 - あるhtmlカラーコードを入力するとRGB値を返す。例：#ffffff=>255,255,255
 - ついでに入力した色を表す[原色大辞典](https://www.colordic.org/)のWebページを開く(但し、Linux限定)
+### demo
+```
+$ ruby 02_color_converter.rb 
+変換したい色のRGB値(例：255,255,255)もしくはカラーコード(例：#FFFFFF, #0c0c0c)を入力し、エンターキーを押してください。
+145,136,45
+"#91882d"
+"色確認用URL：https://www.colordic.org/colorsample/91882d"
+"※5秒後にこのページをブラウザで開きます。"
+
+$ ruby 02_color_converter.rb 
+変換したい色のRGB値(例：255,255,255)もしくはカラーコード(例：#FFFFFF, #0c0c0c)を入力し、エンターキーを押してください。
+#0d0f06
+[13, 15, 6]
+"色確認用URL：https://www.colordic.org/colorsample/0d0f06"
+"※5秒後にこのページをブラウザで開きます。"
+```
+
 
 ## 03_docker_deploy_kaldy
 dockerの練習がてらカスタムコンテナを作成し、[gatsby-starter-netlify-cms](https://github.com/netlify-templates/gatsby-starter-netlify-cms)をデプロイしてみました。
@@ -33,7 +67,7 @@ docker build -t gatsby-starter-netlify/website .
 # コンテナを実行してデプロイする
 docker run --rm -p 80:80 gatsby-starter-netlify/website
 ```
-#### 上手く行ったら
+#### demo
 こんなページがlocalhost:8000に表示されるはず。
 ![kaldy-pic](image/0301.png)
 #### 上手く行かないときは
