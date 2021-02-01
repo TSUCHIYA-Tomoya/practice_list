@@ -26,11 +26,14 @@ docker build -t gatsby-starter-netlify/website .
 docker run --rm -p 80:80 gatsby-starter-netlify/website
 ```
 #### 上手く行ったら
+こんなページがlocalhost:8000に表示されるはず。
 ![kaldy-pic](image/0301.png)
 #### 上手く行かないときは
 starterページの[このissue](https://github.com/netlify-templates/gatsby-starter-netlify-cms/issues/659)を参考にgatsby-config.jsを書き換えることで上手く行くかも知れません。
 ### これを通して出来るようになったこと
 - dockerカスタムコンテナの作成
+- 知らぬ間に使われているportの見つけ方とkillのやり方
+	- 今回はapache2が80番ポートをLISTEN状態で塞いでいた。
 
 ## 99_その他
 現状、ポートフォリオと呼べるようなものが無いので、色々羅列しておきます。
