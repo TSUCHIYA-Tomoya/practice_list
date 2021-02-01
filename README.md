@@ -1,6 +1,14 @@
 # practice_list
 一時的にポートフォリオの代わりとして作成、公開。
 
+<details><summary>目次</summary><div>
+	
+- [01_fizz_buzz](#01_fizz_buzzrb)
+- [02_color_converter](#02_color_converterrb)
+- [03_docker_deploy_kaldy](#03_docker_deploy_kaldy)
+- [99_その他](#99_その他)
+</div></details>
+
 ## 01_fizz_buzz.rb
 かの有名なfizz_buzz
 
