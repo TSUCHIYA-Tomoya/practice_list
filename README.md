@@ -25,6 +25,8 @@ docker build -t gatsby-starter-netlify/website .
 # コンテナを実行してデプロイする
 docker run --rm -p 80:80 gatsby-starter-netlify/website
 ```
+#### 上手く行ったら
+![kaldy-pic](image/0301.png)
 #### 上手く行かないときは
 starterページの[このissue](https://github.com/netlify-templates/gatsby-starter-netlify-cms/issues/659)を参考にgatsby-config.jsを書き換えることで上手く行くかも知れません。
 ### これを通して出来るようになったこと
